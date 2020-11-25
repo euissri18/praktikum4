@@ -46,14 +46,14 @@ KELAS : TI.20.A.1<br>
 
 
     while ulang:
-      nama = input("Masukkan Nama: ")
-      nim = input("Masukkan NIM: ")
-      tugas = int(input("Masukkan Nilai Tugas: "))
-      uts = int(input("Masukkan Nilai UTS: "))    
-      uas = int(input("Masukkan Nilai UTS: "))
-      akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+       nama = input("Masukkan Nama: ")
+       nim = input("Masukkan NIM: ")
+       tugas = int(input("Masukkan Nilai Tugas: "))
+       uts = int(input("Masukkan Nilai UTS: "))    
+       uas = int(input("Masukkan Nilai UTS: "))
+       akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
     
-      nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
+       nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
     
 Dari statement diatas, kita akan diminta untuk menginput nama, nim, nilai tugas, nilai uts, dan nilai uas, lalu system akan menjumlahkan nilai-nilai tersebut dan menghasilkan nilai akhir. Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke dalam list 'nilai'
 
@@ -77,6 +77,8 @@ Untuk keluar dari perulangan kita hanya perlu menginputkan 't' apabila diminta p
     print("==================================================================")
     
  dan ini hasil ketika sudah di Run
+ 
+ 
  ![input](photo/ss1.png)
  
  
