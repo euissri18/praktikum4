@@ -5,9 +5,9 @@ NIM   : 312010457<br>
 KELAS : TI.20.A.1<br>
 ***
 
-##Program Data Mahasiswa
+Program Data Mahasiswa
 
-##Berikut Inputannya:
+Berikut Inputannya:
 
     nilai = []
     ulang = true
